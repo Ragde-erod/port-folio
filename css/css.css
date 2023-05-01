@@ -1,0 +1,22 @@
+/* General */
+body{background-image:url("img/etoile-filante.gif");background-size:100% 100%;background-color:black;margin:0;}
+.bouton{background-color:orange;height:50px;text-align:center;padding:5px;max-width:30vh;border:solid black 3px;margin:7px 10px 0 10px;}
+.bouton > p {font:bold 22px "Comic Sans MS", "Comic Sans",cursive;margin:11px 0 11px 0;}
+.bouton:hover {background-color:#FFB833;}
+.bouton:active {background-color:#E69500;}
+/* Banderolle */
+#blocmenu {background-color:yellow;margin-left:2.5%;padding:0 5px 0 5px;display:block;width:30vh;}
+#blocmenu > div {background-color:red;height:100vh;}
+#PTitle {text-align:center;padding-top:1px;}
+#Ptitle > p {font:bold 32px "Comic Sans MS", "Comic Sans",cursive;}
+#image {width:100px;height:100px;background-color:black;transform:rotate(45deg);margin:60px auto;overflow:hidden;padding:5px;border:solid yellow 3px;}
+#image > div {transform:rotate(-45deg);}
+/* viewer */
+#viewer {height:80vh;width:70vw;position:absolute;top:10vh;right:6vw;}
+#viewer > div {display:none;border:solid yellow 5px;width:100%;height:100%;background-color:red;}
+
+
+/*Stage 1*/
+#viewer > #Stage {display:none;}
+#stage1 {margin:2.5vh 2.5vw 2.5vh 2.5vw;border:solid yellow 1vh;height:73.5vh}
+#stage1 > embed {height:100%;width:100%;}
